@@ -1,0 +1,47 @@
+.nav1{
+    background-color: rgb(247,246,244);
+}
+
+body{
+    background-color: rgb(252,253,252);
+}
+.ab{
+    background-color: rgb(236,232,217);
+
+}
+#carouselExampleCaptions{
+    background-color: rgb(236,232,217);
+}
+.imgcaro1{
+    height: 300px;
+    width: 300px;
+
+}
+
+nav2{
+    background-color: rgb(236,232,217);
+   
+}
+marquee{
+    background-color: rgb(165 213 213);
+}
+.say{
+    background-color:rgb(236,247,253) ;
+    height: 340px;
+}
+
+.sayhps{
+    background-color: white;
+    height: 150px;
+    width: 22%;
+    margin: 0%;
+    outline: rgb(235,239,244);
+    border: 1px solid rgb(235,239,244);
+    border-radius: 10px;
+}
+.count{
+    height: 150px;
+    width: 22%;
+    margin: 0%;
+    border: 2px solid red;
+}
