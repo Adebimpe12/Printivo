@@ -19,41 +19,48 @@
     background-color: rgb(247,246,244);
 }
 
-body{
-    background-color: rgb(252,253,252);
-}
 .ab{
     background-color: rgb(236,232,217);
 
 }
-#carouselExampleCaptions{
+
+.abk{
+    background-color: rgb(252,253,252);
+}
+
+.mee{
     background-color: rgb(236,232,217);
 }
 
+@media screen and (max-width: 600px) {
+    .imgcaro1 {display: none; }
+  }
 
-.carousel-caption{
-    width:40% ;
+.care{
+    margin-top: 80px;
     height: 400px;
-    margin-left: -100px;
+    margin-left: 100px;
     color: rgb(84, 80, 80);
 }
 
-.carousel-caption h2{
+
+
+.meone{
     font-family:"dm serif display", serif;
     font-size: 60px;
     color: rgb(56,75,99);
 }
-.carousel-caption p{
+.metwo {
     color: rgb(113,129,149);
 }
-.carousel-caption form input{
+.care form input{
     height: 90px;
 }
 
 .imgcaro1{
     height: 400px;
-    width: 500px;
-    margin-top: 80px;
+    margin-left: 970px;
+    margin-top: -300px;
 }
 
 nav2{
@@ -62,25 +69,6 @@ nav2{
 }
 marquee{
     background-color: rgb(165 213 213);
-}
-
-.margin{
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-bottom: 100px;
-}
-
-.nig{
-    margin-left: 150px;
-}
-
-.see{
-    color: rgb(215,140,160);
-    text-decoration: none;
-}
-
-.card img{
-    height:60%;
 }
 
 .btn{
@@ -93,48 +81,125 @@ marquee{
     font-size: medium;
 }
 
+.nig{
+    margin-left: 100px;
+}
+
+@media screen and (max-width: 600px) {
+    .nig {margin-left:20px;}
+  }
+@media screen and (max-width: 600px) {
+    .nig img {width:100%; }
+  }
+
+.see{
+    color: rgb(215,140,160);
+    text-decoration: none;
+}
+
+
+
 .say{
     background-color:rgb(236,247,253) ;
     height: 340px;
 }
 
+.ebele{
+    display: flex;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .say{height: 750px;}
+    .ebele {  display: block;}
+    #ebeleone, #ebeletwo, #ebelethree{ margin-left: -30px; margin-bottom: 40px; 
+}
+}
+
 .sayhps{
     background-color: white;
     height: 150px;
-    width: 22%;
+    width: 350px;
     margin: 0%;
     outline: rgb(235,239,244);
     border: 2px solid rgb(235,239,244);
     border-radius: 5px;
 }
+
+.can{
+    margin-bottom: 30px;
+}
+
+.counter{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 600px) {
+    .for{height: 650px;}
+    .counter {  display: block;}
+    #fast{ margin-top: 20px;}
+    .can{ margin-bottom: 40px;}
+}
+
 .count{
     height: 150px;
-    width: 22%;
+    width: 250px;
     margin: 0%;
 }
+
+
 
 .amazing{
     background-color: rgb(246,247,244);
     height: 300px;
-    padding-left: 100px;
     padding-top: 100px;
+}
+
+.context{
+    margin-left: 100px;
 }
 
 .crunch, .forbes, .point, .cabal, .cnn{
     width: 20%;
 }
+
 .crunch a, .forbes a, .point a, .cabal a, .cnn a{
     color: rgb(62,77,98);
 }
 
+.maze{
+    display: flex;
+    margin-left: 100px;
+}
+
+@media screen and (max-width: 600px) {
+    .amazing{ padding:20px; height: 750px;}
+    .maze{display: block;   }
+    .maize{width:100%;margin-bottom: 50px;}
+}
+
+
 footer{
     background-color: rgb(56 74 98);
     height: 400px;
+    padding-right: 50px;
 }
 
 footer ul li a{
     text-decoration: none;
     color: white;
+}
+
+.about{
+    display: flex;
+}
+
+@media screen and (max-width: 600px) {
+    .about{ padding:0px;  height: 750px;display: block; }
+    .fellow{ margin-left: 30px; }
+    .maize{width:100%;}
 }
 
  .fellow, .col a{
