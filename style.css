@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav1{
+    background-color: rgb(247,246,244);
+}
+
+.van{
+    background-color: white;
+    border: 1px solid rgb(163, 151, 151);
+    border-radius: 20px;
+    padding: 0.7vw;
+    background-color: rgb(247,246,244);
+}
+
+.ab{
+    background-color: rgb(236,232,217);
+
+}
+
+.abk{
+    background-color: rgb(252,253,252);
+}
+
+.mee{
+    background-color: rgb(236,232,217);
+}
+
+.care{
+    color: rgb(84, 80, 80);
+}
+
+
+
+.meone{
+    font-family:"dm serif display", serif;
+    font-size: 4rem;
+    color: rgb(56,75,99);
+}
+.metwo {
+    color: rgb(113,129,149);
+}
+
+nav2{
+    background-color: rgb(236,232,217);
+   
+}
+marquee{
+    background-color: rgb(165 213 213);
+}
+
+.btn{
+    background-color: rgb(214,126,129);
+    border: 1px solid rgb(214,126,129);
+    border-radius: 3px;
+}
+
+.card-title{
+    font-size: medium;
+}
+
+.see{
+    color: rgb(215,140,160);
+    text-decoration: none;
+}
+
+.say{
+    background-color:rgb(236,247,253) ;
+}
+
+
+
+.sayhps{
+    background-color: white;
+    outline: rgb(235,239,244);
+    border: 2px solid rgb(235,239,244);
+    border-radius: 5px;
+}
+
+.can{
+    margin-bottom: 30px;
+}
+
+.counter{
+    display: flex;
+    justify-content: space-around;
+}
+
+.amazing{
+    background-color: rgb(246,247,244);
+}
+
+.crunch a, .forbes a, .point a, .cabal a, .cnn a{
+    color: rgb(62,77,98);
+}
+
+
+
+
+footer{
+    background-color: rgb(56 74 98);
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+ .fellow, .at a{
+    color: rgb(226,228,217); 
+}
+
+.print, .help, .money, ul{
+    list-style: none;
+}
+
+.copy{
+    background-color: rgb(203,202,200);
+}
